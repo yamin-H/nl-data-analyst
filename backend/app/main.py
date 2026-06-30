@@ -9,7 +9,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:3000",
-        "https://nl-data-analyst-5rbl6yx49-yamin-hs-projects.vercel.app"
+        "https://nl-data-analyst.vercel.app",
     ],
     allow_credentials=True,
     allow_methods=["*"],
